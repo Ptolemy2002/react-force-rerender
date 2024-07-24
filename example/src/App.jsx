@@ -1,9 +1,12 @@
-import {Example} from "@local/lib";
+import useForceRerender from "@ptolemy2002/react-force-rerender";
 
 function App() {
+  const forceRerender = useForceRerender();
+  console.log("App rendered");
+  
   return (
     <div className="App">
-      <Example />
+      <button onClick={forceRerender}>Force Rerender</button>
     </div>
   );
 }
