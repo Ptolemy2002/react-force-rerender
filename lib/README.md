@@ -1,4 +1,15 @@
 # React Library CRA Template
+The main purpose of this library is to provide access to a hook that returns a function that forces a rerender upon being called. It uses setTimeout as a method to bypass the "Cannot update a component while rendering a different component" error (seems to be the easiest solution found at [stackoverflow](https://stackoverflow.com/a/63659469/7369908)).
+
+The hook is exported as default, so you can import in one of the following ways:
+```
+// ES6
+import useForceRerender from '@ptolemy2002/react-force-rerender';
+// CommonJS
+const useForceRerender = require('@ptolemy2002/react-force-rerender');
+```
+
+## Meta
 This is a React Library Created by Ptolemy2002's [cra-template-react-library](https://www.npmjs.com/package/@ptolemy2002/cra-template-react-library) template in combination with [create-react-app](https://www.npmjs.com/package/create-react-app). It contains methods of building and publishing your library to npm.
 For now, the library makes use of React 18 and does not use TypeScript.
 

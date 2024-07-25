@@ -24,7 +24,7 @@
         "url": "https://github.com/Ptolemy2002/react-force-rerender",
         "directory": "lib"
     },
-    "description": "Example of a React library",
+    "description": "Basic Hook to force a rerender of a component",
     "license": "ISC",
     "peerDependencies": {
         "@types/react": "^18.3.3",
