@@ -20,6 +20,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/Ptolemy2002/react-force-rerender",
+      "directory": "example"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
