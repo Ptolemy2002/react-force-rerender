@@ -1,4 +1,4 @@
-# React Library CRA Template
+# React Force Rerender
 The main purpose of this library is to provide access to a hook that returns a function that forces a rerender upon being called. It uses setTimeout as a method to bypass the "Cannot update a component while rendering a different component" error (seems to be the easiest solution found at [stackoverflow](https://stackoverflow.com/a/63659469/7369908)).
 
 The hook is exported as default, so you can import in one of the following ways:
